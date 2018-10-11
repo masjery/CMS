@@ -1,0 +1,33 @@
+@media (max-width: 767px){
+    button.navbar-toggler {
+        position: absolute;
+        right: 0;
+        top: -35px;
+    }
+    p.author-detail{
+        font-size: 12px;
+    }
+/*
+    .single-feature{
+        margin-bottom: 15px;
+    }
+*/
+}
+@media (max-width: 576px){
+    
+}
+@media (max-width: 320px){
+    .large-text-slider{
+        font-size: 25px;
+    }
+    p.slider-slogun {
+    font-size: 12px;
+}
+    .section-title {
+    font-size: 16px;
+}
+    p.section-subtitle {
+    font-size: 10px;
+        margin-bottom: 0;
+}
+}

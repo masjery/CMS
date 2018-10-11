@@ -1,0 +1,146 @@
+body,h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.row.header-area{
+    background-color: rgba(0,0,0,.40);
+}
+ul.mainmenu,ul.social-icons-author{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    margin-bottom: 0px;
+    margin: 0;
+    padding: 0;
+}
+ul.social-icons-author a{
+    color: #606060;
+}
+ul.social-icons-author li{
+    display: inline-block;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+ul.social-icons-author li a{
+    padding: 10px 14px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+}
+ul.social-icons-author li:first-child{
+    margin-left: 0px;
+}
+
+ul.social-icons-author li:hover a{
+    color: #fff;
+    background-color: #00cf97;
+    border-color: #00cf97;
+}
+ul.mainmenu > li {
+    display: inline-block;
+    padding: 26px 0px;
+    position: relative;
+}
+ul.mainmenu > li:hover {
+/*    border-bottom: 2px solid #00cf97;*/
+    cursor: pointer;
+}
+ul.mainmenu > li:hover::after {
+    content: "";
+    background-color: #00cf97;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+ul.mainmenu > li > a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 1px 12px;
+}
+ul.mainmenu > li > a:hover{
+    text-decoration: none;
+}
+.logo{
+    padding: 10px 15px;
+}
+.top-banner{
+    background-image: url(image/top-container-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.banner-text{
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+.btn.cta{
+    color: #606060;
+}
+.text-4040{
+    color: #404040;
+}
+.text-6060{
+    color: #606060;
+}
+.text-5050{
+    color: #505050;
+}
+.single-card-feat{
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,.2);
+    cursor: pointer;
+    transition: .3s all ease-out;
+}
+.single-card-feat:hover{
+    box-shadow: 0px 2px 1px 0px rgba(0,0,0,.3);
+    cursor: pointer;
+    transition: .3s all ease-in;
+}
+#numeric-factor{
+    position: relative;
+}
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.numeric-bg{
+    background-image: url(image/top-container-bg.jpg);
+}
+.pricing-item{
+    border-bottom: 1px solid #f5f5f5;
+}
+.pricing-head{
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,.1);
+}
+.pricing-head.recommended{
+    background-color: #00cf97;
+}
+.font-14{
+    font-size: 14px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-12{
+    font-size: 12px;
+}
+.font-26{
+    font-size: 26px;
+}
+.font-20{
+    font-size: 20px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-36{
+    font-size: 36px;
+}
